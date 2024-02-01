@@ -3,10 +3,9 @@ package com.demo.mywebapp.database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Optional;
 
-public class ConnectDb {
-    public ConnectDb(){
+public class ConnectDB {
+    public ConnectDB(){
         try{
             Class.forName("org.postgresql.Driver");
         }catch(ClassNotFoundException e){
